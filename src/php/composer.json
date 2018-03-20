@@ -1,0 +1,29 @@
+{
+  "name": "attics/pullnzb",
+  "description": "Frontend for Usenet Web Downloader",
+  "license": "proprietary",
+  "version": "0.1",
+  "repositories": [
+    {"type": "git", "url": "https://bitbucket.org/attics/soap"},
+    {"type": "git", "url": "https://bitbucket.org/attics/raft"},
+    {"type": "git", "url": "https://bitbucket.org/attics/hound"},
+    {"type": "git", "url": "https://bitbucket.org/attics/permit"},
+    {"type": "git", "url": "https://bitbucket.org/attics/uuid"},
+    {"type": "git", "url": "https://bitbucket.org/attics/zipper"},
+    {"type": "git", "url": "https://bitbucket.org/attics/llog"}
+  ],
+  "require": {
+    "ext-bcmath": "*",
+    "attics/hound": "0.3",
+    "attics/raft": "dev-master",
+    "attics/zipper": "dev-master",
+    "attics/permit": "dev-dev",
+    "cboden/ratchet": "^0.3.4",
+    "monolog/monolog": "^1.21",
+    "guzzlehttp/guzzle": "^6.2.2",
+    "predis/predis-async": "dev-master",
+    "bandwidth-throttle/bandwidth-throttle": "*",
+    "usmanhalalit/pixie": "^2.0",
+    "swiftmailer/swiftmailer": "^5.4"
+  }
+}
